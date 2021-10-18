@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  height: 400px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input{
+  margin: 10px;
+  font-size: 1em;
+
+  border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 29px;
+    transition: 0.25s;
+}
+
+.ending-form input:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.ending-form input:hover{
+  border-color: #2ecc71;
+}
+
+::placeholder {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.btn-start {
+  background-color: #ffc107;
+}
+.btn-yes {
+  background-color: #28a745;
+}
+
+.btn-no {
+  background-color: #ff0018;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 250px;
+  color: white;
+}
